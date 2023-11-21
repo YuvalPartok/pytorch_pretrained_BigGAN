@@ -42,6 +42,7 @@ def convert_to_images(obj):
     """
     try:
         import PIL
+        import PIL.Image
     except ImportError:
         raise ImportError("Please install Pillow to use images: pip install Pillow")
 
