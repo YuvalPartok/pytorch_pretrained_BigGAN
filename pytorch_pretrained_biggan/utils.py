@@ -85,6 +85,7 @@ def display_in_terminal(obj):
     """
     try:
         import PIL
+        import PIL.Image
         from libsixel import (sixel_output_new, sixel_dither_new, sixel_dither_initialize,
                               sixel_dither_set_palette, sixel_dither_set_pixelformat,
                               sixel_dither_get, sixel_encode, sixel_dither_unref,
